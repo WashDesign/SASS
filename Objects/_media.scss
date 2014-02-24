@@ -1,0 +1,13 @@
+// ! media             
+   
+.media--right{
+    float:right;
+}
+.media--left{
+    float:left;
+}
+%media--center{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
