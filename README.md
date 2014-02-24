@@ -11,11 +11,11 @@ This is the wash-pilot sass framework (pretty much a work in progress) but we ha
         * Global
         * Headings
         * Paragraphs
-	* Blockquotes
-	* Images
-	* Forms
-	* Lists
-	* Tables
+        * Blockquotes
+        * Images
+        * Forms
+        * Lists
+        * Tables
     * Helpers
     * Print
     * Mixins
