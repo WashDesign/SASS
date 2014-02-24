@@ -1,6 +1,9 @@
 # SASS
 ====
 
+This is the wash-pilot sass framework (pretty much a work in progress) but we have tried and tested inuit css and followed smacss. We found these great. As we develop sites in a particular way it seemed wholly approporiate to, whilst heavily influenced by the former, generate our own - based on our workflow.
+
+
 ## SCSS Directory Structure and Files
 
 * **Library (untouched)**
@@ -15,15 +18,15 @@
 	* Lists
 	* Tables
     * Helpers
-    * Print 
+    * Print
     * Mixins
-    * **Dependencies**   
+    * **Dependencies**
         * Normalise
         * Grid-System
         * MQ
         * Mixin-library
         * Flex-slider
-* **Objects** 
+* **Objects**
      * nav
      * media
      * button
@@ -52,8 +55,14 @@
      * ext-button (example)
      * ext-font-icon
 * **Themes** (colour themes)
-     * site-themes 
+     * site-themes
      * page-themes
      * module-themes
 * **Overrides**
-     * make use of the cascade  
+     * make use of the cascade
+
+
+## References
+
+https://github.com/csswizardry/inuit.css
+http://smacss.com/
