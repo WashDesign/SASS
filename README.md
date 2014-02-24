@@ -6,10 +6,14 @@
 * **Library (untouched)**
     * Defaults
     * **Base**
-        * Forms
-        * Tables
+        * Global
         * Headings
-	      * Paragraphs
+        * Paragraphs
+	* Blockquotes
+	* Images
+	* Forms
+	* Lists
+	* Tables
     * Helpers
     * Print 
     * Mixins
@@ -26,13 +30,11 @@
      * icons
      * box
      * fonts
-     * font-icons (possibly use true or false wrapper to not include sets)
+     * font-icons
 * **Config** (project specific)
+     * setup true:false
      * mq
-     * colours
-     * fonts/font-icon-set
-     * defaults true:false
-     * variables
+     * variables (colours, fonts/font-icon-set)
 * **Styles**
      * global (body, links, wrapper)?
      * header
@@ -46,9 +48,12 @@
           * slider
           * gallery
 * **Extensions** (extensions to library or objects that aren't content related)
-     * forms-ext (example)
-     * button-ext (example)
-     * font-icon-ext
+     * ext-forms (example)
+     * ext-button (example)
+     * ext-font-icon
 * **Themes** (colour themes)
-     * page-theme
-     * module-theme
+     * site-themes 
+     * page-themes
+     * module-themes
+* **Overrides**
+     * make use of the cascade  
