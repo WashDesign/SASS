@@ -2,9 +2,9 @@
 
 // !TOC
 // 1. Defaults
-// 2. Library
-// 3. Objects
-// 4. Config
+// 2. Config
+// 3. Library
+// 4. Objects
 // 5. Styles
 // 6. Extensions
 // 7. Themes
@@ -13,7 +13,12 @@
 // !Defaults
 
 @import "Library/defaults"; // defaults
+
+// !Config
+
 @import "Config/setup";     // default overrides
+@import "Config/mq_custom"; // breakpoint widths
+@import "Config/variables"; // styleguide variables (colours, fonts, font-icons)
 
 // !Library
 
@@ -46,10 +51,6 @@
 @if $use-media      == true { @import "Objects/media";      } // media object (video)
 @if $use-nav        == true { @import "Objects/nav";        } // navigation object (inline, horizontal, vertical, embedded lists, current state)
 
-// !Config
-
-@import "Config/mq_custom"; // breakpoint widths
-@import "Config/variables"; // styleguide variables (colours, fonts, font-icons)
 
 // !Styles
 
