@@ -1,5 +1,4 @@
 # SASS
-====
 
 This is the wash-pilot sass framework (pretty much a work in progress) but we have tried and tested inuit css and followed smacss. We found these great. As we develop sites in a particular way it seemed wholly approporiate to, whilst heavily influenced by the former, generate our own - based on our workflow.
 
