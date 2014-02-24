@@ -64,5 +64,5 @@ This is the wash-pilot sass framework (pretty much a work in progress) but we ha
 
 ## References
 
-https://github.com/csswizardry/inuit.css
-http://smacss.com/
+- https://github.com/csswizardry/inuit.css
+- http://smacss.com/
