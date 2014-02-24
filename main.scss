@@ -51,7 +51,6 @@
 @if $use-media      == true { @import "Objects/media";      } // media object (video)
 @if $use-nav        == true { @import "Objects/nav";        } // navigation object (inline, horizontal, vertical, embedded lists, current state)
 
-
 // !Styles
 
 @import "Styles/global"; // general

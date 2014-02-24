@@ -1,21 +1,20 @@
-// ! Variables
+// !VARIABLES
 
-// ! -- Color Scheme 
+// !TOC
+// 1. Colors
+// 2. Font Stacks
+
+// !Color Scheme
 
 $white: rgb(255,255,255);
 $black: rgb(0,0,0);
 
-$cs-gold: rgb(166, 129, 69);
-$cs-grey-dark: rgb(86, 86, 86); 
-$cs-grey: rgb(204, 204, 204); 
-$cs-navy: rgb(64,78,86);
-$cs-soft-brown: rgb(109, 104, 99) ;
-$cs-soft-brown-light: rgb(143,138,134);
+$blue: rgb(0,0,255);
+$blue-light: rgb(0,0,255);
+$blue-dark:  rgb(0,0,255);
 
-// ! -- Fonts 
+// !Fonts
 
 $sweet-light: 'sweet_sanslight_small_caps', sans-serif;
-
-$open-sans: 'Open Sans', sans-serif;
-
-$courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$open-sans:   'Open Sans', sans-serif;
+$courier:     'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
