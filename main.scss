@@ -23,11 +23,11 @@
 // !Library
 
 // !--Dependencies
-@import "Library/Dependencies/normalize";  // normalize
-@import "Library/Dependencies/mixin_library";     // mixin library
-@import "Library/Dependencies/grid";      // grid options
-@import "Library/Dependencies/mqs";        // MQ mixins
-@import "Library/Dependencies/flexslider"; // MQ mixins
+@import "Library/Dependencies/normalize";     // normalize
+@import "Library/Dependencies/mixin_library"; // mixin library
+@import "Library/Dependencies/grid";          // grid options
+@import "Library/Dependencies/mqs";           // MQ mixins
+@import "Library/Dependencies/flexslider";    // flexslider default
 
 // !--Base Styles
 @import "Library/Base/global";      // *, HTML, BODY (inc. fonts)
