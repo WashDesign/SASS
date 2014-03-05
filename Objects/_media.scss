@@ -1,5 +1,7 @@
-// ! media             
-   
+@if $use-media == true {
+
+// !Media
+
 .media--right{
     float:right;
 }
@@ -10,4 +12,6 @@
     display:block;
     margin-right:auto;
     margin-left:auto;
+}
+
 }

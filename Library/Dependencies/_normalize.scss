@@ -1,3 +1,5 @@
+@if $use-normalise == true {
+
 /*! normalize.css v1.1.1 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -530,4 +532,6 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
 }

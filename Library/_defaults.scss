@@ -8,30 +8,28 @@
 // Used to control the overall output of the build based on scale of the requirements
 
 // !--Dependencies
-$use-normalise:    true!default;
-$use-mixins:       true!default;
-$use-grids:        true!default;
-$use-mqs:          true!default;
-$use-flexslider:   true!default;
+$use-normalise:     true!default;
+$use-grids:         true!default;
+$use-flexslider:    true!default;
 
 // !--Base
-$use-global:       true!default;
-$use-headings:     true!default;
-$use-paragraphs:   true!default;
-$use-blockquotes:  true!default;
-$use-images:       true!default;
-$use-forms:        true!default;
-$use-lists:        true!default;
-$use-tables:       true!default;
+$use-global:      true!default;
+$use-headings:    true!default;
+$use-paragraphs:  true!default;
+$use-blockquotes: true!default;
+$use-images:      true!default;
+$use-forms:       true!default;
+$use-lists:       true!default;
+$use-tables:      true!default;
 
 // !--Objects
-$use-box:          true!default;
-$use-button:       true!default;
-$use-font-icons:   true!default;
-$use-icons:        true!default;
-$use-logo:         true!default;
-$use-media:        true!default;
-$use-nav:          true!default;
+$use-box:        true!default;
+$use-button:     true!default;
+$use-font-icons: true!default;
+$use-icons:      true!default;
+$use-logo:       true!default;
+$use-media:      true!default;
+$use-nav:        true!default;
 
 // !--Themes
 $use-site-themes:   true!default;
@@ -42,7 +40,7 @@ $use-module-themes: true!default;
 // Simple Global Settings that are used within the library - may be overridden
 
 // !--Border Box
-$use-border-box:   true!default;
+$use-border-box: true!default;
 
 // !--Base Font
 $base-font-size:   16px!default;
@@ -50,12 +48,12 @@ $base-line-height: 24px!default;
 $base-font-family: sans-serif!default;
 
 // !--Font Sizes
-$h1-size:          36px!default;
-$h2-size:          30px!default;
-$h3-size:          24px!default;
-$h4-size:          20px!default;
-$h5-size:          16px!default;
-$h6-size:          14px!default;
+$h1-size: 36px!default;
+$h2-size: 30px!default;
+$h3-size: 24px!default;
+$h4-size: 20px!default;
+$h5-size: 16px!default;
+$h6-size: 14px!default;
 
-$small:            12px!default;
-$smaller:          10px!default;
+$small:   12px!default;
+$smaller: 10px!default;

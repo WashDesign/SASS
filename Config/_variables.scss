@@ -9,12 +9,12 @@
 $white: rgb(255,255,255);
 $black: rgb(0,0,0);
 
-$blue: rgb(0,0,255);
-$blue-light: rgb(0,0,255);
-$blue-dark:  rgb(0,0,255);
+$cs-black:			rgb(30,36,37);
+$cs-black-alpha:	rgba(0,0,0, 0.7);
+
+$cs-yellow: 		rgb(253,186,49);
 
 // !Fonts
 
-$sweet-light: 'sweet_sanslight_small_caps', sans-serif;
-$open-sans:   'Open Sans', sans-serif;
-$courier:     'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+$serif:             "lexia", serif;
+$sans-serif:        "Helvetica Neue", sans-serif;
