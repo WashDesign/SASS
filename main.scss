@@ -15,8 +15,6 @@
 @import "Library/defaults"; // defaults
 
 // !Config
-
-@import "Config/setup";     // default overrides
 @import "Config/mq_custom"; // breakpoint widths
 @import "Config/variables"; // styleguide variables (colours, fonts, font-icons)
 
@@ -27,7 +25,6 @@
 @import "Library/Dependencies/mixin_library"; // mixin library
 @import "Library/Dependencies/grid";          // grid options
 @import "Library/Dependencies/mqs";           // MQ mixins
-@import "Library/Dependencies/flexslider";    // flexslider default
 
 // !--Base Styles
 @import "Library/Base/global";      // *, HTML, BODY (inc. fonts)
@@ -44,15 +41,14 @@
 @import "Library/helpers"; // helper classes
 
 // !Objects
+@import "Objects/brand";       // brand pattern
+@import "Objects/buttons";     // buttons (link, buttun, input[type="submit"])
+@import "Objects/font_icons";  // default font icon references (social, navigation UI)
+@import "Objects/fonts";       // default font
+@import "Objects/media";       // media object (video)
+@import "Objects/nav";         // navigation object (inline, horizontal, vertical, embedded lists, current state)
 
-@import "Objects/box";        // box model (title, text, link, media)
-@import "Objects/button";     // buttons (link, buttun, input[type="submit"])
-@import "Objects/font_icons"; // default font icon references (social, navigation UI)
-@import "Objects/logo";       // logo wrapper
-@import "Objects/media";      // media object (video)
-@import "Objects/nav";        // navigation object (inline, horizontal, vertical, embedded lists, current state)
-
-// !Styles
+// !Styles 
 
 @import "Styles/global"; // general
 @import "Styles/header"; // header
@@ -65,11 +61,6 @@
 // !--Modules
 //@import "Styles/breadcrumb"; // breadcrumb [SAMPLE]
 //@import "Styles/gallery";    // gallery    [SAMPLE]
-
-// !Extensions
-
-//@import "Styles/ext_box";        // box model extended [SAMPLE]
-//@import "Styles/ext_icon_fonts"; // icon font extended [SAMPLE]
 
 // !Themes
 

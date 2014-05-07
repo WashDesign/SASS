@@ -3,12 +3,14 @@
 // !Selection
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $cs-selection__bg;
+    color: $cs-selection__color;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: $cs-selection__bg;
+    color: $cs-selection__color;
     text-shadow: none;
 }
 
@@ -24,45 +26,10 @@ hr {
     padding: 0;
 }
 
-// !IMG
-// Remove the gap between images and the bottom of their containers: h5bp.com/i/440 (Make it responsive)
+// !CLEARFIX
 
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-// !FORMS
-// !Fieldset //*** move to forms base
-// Remove default fieldset styles.
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-// !Textarea
-// Allow only vertical resizing of textareas
-
-textarea {
-    resize: vertical;
-}
-
-// !Chromeframe prompt
-
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-// !Clearfix
-// Contain floats: nicolasgallagher.com/micro-clearfix-hack/
-
-%grp {
+%grp,
+.grp {
     zoom: 1;
 
     &:before,
@@ -75,21 +42,24 @@ textarea {
     }
 }
 
+// !CHROMEFRAME
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
 // !TOOLS
+
 // !BorderBox
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    box-sizing:         border-box;
+    @include box-sizing(border-box);
 }
 
-// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
-.image-replacement {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-}
+// !Visually Hidden
 
 .vh {
         border: 0;

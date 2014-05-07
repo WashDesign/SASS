@@ -1,9 +1,5 @@
-@if $use-lists == true {
-
 // !LISTS
 
+ul, ol {
+  list-style-position: outside;
 }
-
-
-
-

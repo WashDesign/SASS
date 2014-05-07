@@ -1,20 +1,25 @@
 // !VARIABLES
 
-// !TOC
-// 1. Colors
-// 2. Font Stacks
-
-// !Color Scheme
+// !--Colors
+// !---Default
 
 $white: rgb(255,255,255);
 $black: rgb(0,0,0);
 
-$cs-black:			rgb(30,36,37);
-$cs-black-alpha:	rgba(0,0,0, 0.7);
+// !---Styleguide
 
-$cs-yellow: 		rgb(253,186,49);
+$cs-color:          rgb(253,186,49);
+$cs-color-alpha:	rgba(253,186,49, 0.5);
 
-// !Fonts
 
-$serif:             "lexia", serif;
-$sans-serif:        "Helvetica Neue", sans-serif;
+// Colours for mouse highlight
+$cs-selection__bg: $cs-color; //** Edit
+$cs-selection__color: $black; //** Edit  
+
+$cs-link: $cs-color; //** Edit 
+
+// !--Font Face
+
+$serif:             Georgia, Times, "Times New Roman", serif;
+$sans-serif:        Arial, "Helvetica Neue", Helvetica, sans-serif;
+$monospaced:        "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;

@@ -1,12 +1,14 @@
 // !MQ Custom
+
 // https://github.com/guardian/sass-mq
 
-$mq-responsive: true;
+// If you want to display the currently active breakpoint in the top
+// right corner of your site during development, add the breakpoints
+// to this list, ordered by width, e.g. (mobile, tablet, desktop).
+$mq-show-breakpoints: (bp1, bp2);
 
+// Mixin accepts pixels, ems, keywords… and compiles into ems.
 $mq-breakpoints: (
-    (mobile  300px)
-    (desktop-small 768px)
-    (desktop 1020px)
-    (wide    1260px)
+    (bp1 480px)
+    (bp2 600px)
 );
-$ipad-landscape: '(min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)';

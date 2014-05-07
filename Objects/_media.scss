@@ -1,17 +1,15 @@
-@if $use-media == true {
-
 // !Media
 
-.media--right{
-    float:right;
-}
-.media--left{
-    float:left;
-}
-%media--center{
+%media--center {
     display:block;
     margin-right:auto;
     margin-left:auto;
 }
 
+.media--right{
+    float:right;
+}
+
+.media--left{
+    float:left;
 }
